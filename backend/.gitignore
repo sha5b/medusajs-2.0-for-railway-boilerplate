@@ -10,11 +10,14 @@ static
 coverage
 
 .medusa
+env.template
+medusa-config.js
 
 !src/**
 
 ./tsconfig.tsbuildinfo
-# package-lock.json
+package-lock.json
+package.json
 yarn.lock
 medusa-db.sql
 build
